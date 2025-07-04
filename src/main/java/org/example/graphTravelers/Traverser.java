@@ -6,5 +6,5 @@ import org.example.adapter.GraphAdapter;
 
 public interface Traverser {
     List<Integer> traverse(Integer startVertex);
-    void setGraphAdapter(GraphAdapter<Integer, String> adapter);
+    void setAdapterForGraph(GraphAdapter<Integer, String> adapter);
 }
