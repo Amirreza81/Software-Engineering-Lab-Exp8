@@ -1,12 +1,12 @@
 package org.example;
 
-import edu.uci.ics.jung.graph.SparseMultigraph;
+import java.util.List;
+
 import org.example.graphTravelers.BfsGraphTraverser;
 import org.example.graphTravelers.DfsGraphTraverser;
 import org.example.graphTravelers.Traverser;
 
-import java.util.ArrayList;
-import java.util.List;
+import edu.uci.ics.jung.graph.SparseMultigraph;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
