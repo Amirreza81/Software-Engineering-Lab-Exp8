@@ -17,6 +17,7 @@ public class Main {
     public static void main(String[] args) {
         // Create a graph
         // SparseMultigraph<Integer,String> graph = new SparseMultigraph<>();
+        // GraphAdapter<Integer, String> graphAdapter = new JungGraphAdapter<>();
         GraphAdapter<Integer,String> graph = new JGraphTGraphAdapter<>();
 
         // Add vertices (using Integer nodes)
