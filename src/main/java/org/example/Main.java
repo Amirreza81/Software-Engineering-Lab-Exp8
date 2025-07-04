@@ -6,14 +6,18 @@ import org.example.graphTravelers.BfsGraphTraverser;
 import org.example.graphTravelers.DfsGraphTraverser;
 import org.example.graphTravelers.Traverser;
 
-import edu.uci.ics.jung.graph.SparseMultigraph;
+import org.example.adapter.GraphAdapter;
+import org.example.adapter.JGraphTGraphAdapter;
+
+// import edu.uci.ics.jung.graph.SparseMultigraph;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
         // Create a graph
-        SparseMultigraph<Integer,String> graph = new SparseMultigraph<>();
+        // SparseMultigraph<Integer,String> graph = new SparseMultigraph<>();
+        GraphAdapter<Integer,String> graph = new JGraphTGraphAdapter<>();
 
         // Add vertices (using Integer nodes)
         graph.addVertex(1);
